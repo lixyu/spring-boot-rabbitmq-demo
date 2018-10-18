@@ -5,10 +5,12 @@
 由于rabbitMq需要erlang语言的支持，在安装rabbitMq之前需要安装erlang，执行命令：
 
 sudo apt-get install erlang-nox
+ 
  安装rabbitMq命令：
 
 sudo apt-get update
 sudo apt-get install rabbitmq-server
+
 启动、停止、重启、状态rabbitMq命令：
 
 启动：sudo rabbitmq-server start
